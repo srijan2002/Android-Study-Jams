@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/blankFragment">
+
+    <fragment
+        android:id="@+id/blankFragment"
+        android:name="com.example.tic_tac_toe.home"
+        android:label="fragment_blank"
+        tools:layout="@layout/fragment_blank" >
+        <action
+            android:id="@+id/enter"
+            app:destination="@id/blankFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/blankFragment2"
+        android:name="com.example.tic_tac_toe.BlankFragment2"
+        android:label="fragment_blank2"
+        tools:layout="@layout/fragment_blank2" >
+        <action
+            android:id="@+id/play"
+            app:destination="@id/gamescreen" />
+        <action
+            android:id="@+id/back_home"
+            app:destination="@id/blankFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gamescreen"
+        android:name="com.example.tic_tac_toe.gamescreen"
+        android:label="fragment_gamescreen"
+        tools:layout="@layout/fragment_gamescreen" >
+        <action
+            android:id="@+id/play_again"
+            app:destination="@id/blankFragment2" />
+    </fragment>
+</navigation>
