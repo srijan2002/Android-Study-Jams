@@ -4,7 +4,7 @@ Tic-Tac-Toe Gaming App
 
 <b> Problem Statement: </b>
 
-With the advent of the gaming generation  at hand, the Gen-Z children barely visit arcades when you have a mobile application for the same. One of the main motive of the application is a step forwards towards native game development using Kotlin.
+With the advent of the gaming generation  at hand, the Gen-Z children barely visit arcades when you have a mobile application for the same. Huge efforts are being made to enable mobile gaming without hampering the user experience. One of the main motive of the application is a step forward towards Native Game Development using Kotlin.
 
 <b> Proposed Solution: </b>
 
