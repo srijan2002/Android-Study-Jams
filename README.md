@@ -8,7 +8,7 @@ With the advent of the gaming generation  at hand, the Gen-Z children barely vis
 
 <b> Proposed Solution: </b>
 
-Instead of drawing the 3 by 3 matrix every time you play, this application provides a light-weight Naughts and Crosses game, fed with the actual game logic. 
+Instead of drawing the 3 by 3 matrix every time you play, this application provides a light-weight Noughts and Crosses game, fed with the actual game logic. 
 
 <img src="https://user-images.githubusercontent.com/77445478/148654534-b4558ed2-4d50-4476-b122-0ca0daa1fce0.jpg" width="250" height="500">
 <img src="https://user-images.githubusercontent.com/77445478/148654572-b688cdcc-a0c7-429c-84a1-688c102f81a3.jpg" width="250" height="500">
@@ -37,4 +37,4 @@ Instead of drawing the 3 by 3 matrix every time you play, this application provi
 
 Currently, the application is under further development stage, with limited data handling. You can access the app:- https://github.com/srijan2002/Tic-Tac-Toe
 
-We have planned to implement Sockets.io in this application, so as to allow real-time multiplayer scenarios in Naughts and Crosses. Moreover, it is planned to design a leaderboard for all the registered users, thus giving it an actual look of a gaming platform.
+We have planned to implement Sockets.io in this application, so as to allow real-time multiplayer scenarios in Noughts and Crosses. Moreover, it is planned to design a leaderboard for all the registered users, thus giving it an actual look of a gaming platform.
